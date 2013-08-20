@@ -18,19 +18,11 @@ Answer: 906609
 I'm the 172039th person to solve this problem.
 
 """
-def is_palindrome(x):
-    strx = str(x)
-    strx_max_index = len(strx) - 1
-    strx_len_half = len(strx) / 2
-
-    for i in range(0, strx_len_half):
-        if strx[i] != strx[strx_max_index - i]:
-            return False
-
-    return True
+from lib.util import *
 
 MIN = 100
 MAX = 999
+
 
 def get_largest_palindrome_product(x):
     largest = -1
