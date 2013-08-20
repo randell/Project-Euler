@@ -14,6 +14,8 @@ Solution:
 This version further simplifies getting the sum of an arithmetic series since we already know that the first element in
 the series and the difference to the next element in the series are the same.
 
+Version D should be able to accept N number of multiples.
+
 Answer: 233168.
 I'm the 311384th person to solve this problem.
 
@@ -21,6 +23,7 @@ I'm the 311384th person to solve this problem.
 count_multiples_of_3 = 999 / 3
 count_multiples_of_5 = 999 / 5
 count_multiples_of_15 = 999 / 15
+
 
 def sum_of_arithmetic_series(n, a):
     return (a * n * (n + 1)) / 2
