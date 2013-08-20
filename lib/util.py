@@ -26,3 +26,15 @@ def is_prime(x):
             break
 
     return True
+
+
+def is_palindrome(x):
+    strx = str(x)
+    strx_max_index = len(strx) - 1
+    strx_len_half = len(strx) / 2
+
+    for i in range(0, strx_len_half):
+        if strx[i] != strx[strx_max_index - i]:
+            return False
+
+    return True
