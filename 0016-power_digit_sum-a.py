@@ -16,20 +16,12 @@ Answer: 1366
 I'm the 98382nd person to solve this problem.
 
 """
+from lib.util import *
+
 power = 1000
 
 
 def power_digit(x):
     return 2 ** x
-
-
-def digit_sum(x):
-    str_x = str(x)
-    sum = 0
-
-    for i in str_x:
-        sum += int(i)
-
-    return sum
 
 print digit_sum(power_digit(power))
