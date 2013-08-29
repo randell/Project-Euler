@@ -21,6 +21,7 @@ from lib.util import *
 
 x = 2000000
 
+
 def sum_of_primes_below(x):
     sum = 0
 

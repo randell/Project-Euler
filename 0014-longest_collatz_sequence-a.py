@@ -29,6 +29,8 @@ Answer: 837799
 I'm the 92318th person to solve this problem.
 
 """
+
+
 def collatz_sequence_length(x):
     chain = [x]
 
