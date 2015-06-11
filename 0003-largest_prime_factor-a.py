@@ -15,7 +15,7 @@ primes, while keeping track of the largest one. We set the number itself as the 
 find any other factors.
 
 Answer: 6857
-I'm the 188047th person to solve this problem.
+I'm the 188,047th person to solve this problem.
 
 """
 from lib.util import *

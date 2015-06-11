@@ -5,19 +5,20 @@ Title:
 Multiples of 3 or 5
 
 Description:
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these
-multiples is 23.
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 
+3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 Solution:
-This version further simplifies getting the sum of an arithmetic series since we already know that the first element in
-the series and the difference to the next element in the series are the same.
+This version further simplifies getting the sum of an arithmetic series since we 
+already know that the first element in the series and the difference to the next 
+element in the series are the same.
 
 Version D should be able to accept N number of multiples.
 
 Answer: 233168.
-I'm the 311384th person to solve this problem.
+I'm the 311,384th person to solve this problem.
 
 """
 count_multiples_of_3 = 999 / 3
