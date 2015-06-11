@@ -3,7 +3,8 @@ def is_prime(x):
     Checks if a given number is prime
     """
     if x <= 1:
-        # Because any number less than or equal to 1 is neither prime nor composite.
+        # Because any number less than or equal to 1 is neither prime nor 
+        # composite.
         return False
 
     if x <= 3:
@@ -15,14 +16,16 @@ def is_prime(x):
 
     while True:
         if x % i == 0:
-            # If the number is divisible by a another number except for 1 and itself, it's composite (not prime).
+            # If the number is divisible by a another number except for 1 and 
+            # itself, it's composite (not prime).
             return False
 
         i += 1
 
         if i * i > x:
-            # If we reach the square root of a number and we still cannot find a divisor, it's prime. No need to divide
-            # using the remaining numbers.
+            # If we reach the square root of a number and we still cannot find a 
+            # divisor, it's prime. No need to divide using the remaining 
+            # numbers.
             break
 
     return True
