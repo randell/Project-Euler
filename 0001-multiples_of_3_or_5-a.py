@@ -19,6 +19,6 @@ I'm the 311384th person to solve this problem.
 sum = 0
 
 for x in range(0, 10):
-    sum += x if x % 3 == 0  or x % 5 == 0 else 0
+    sum += x if x % 3 == 0 or x % 5 == 0 else 0
 
 print sum
