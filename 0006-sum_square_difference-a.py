@@ -24,7 +24,7 @@ difference between the two.
 Idea for solution B is to get the pattern of the differences.
 
 Answer: 25164150
-I'm the 189786th person to solve this problem.
+I'm the 189,786th person to solve this problem.
 
 """
 MIN = 1

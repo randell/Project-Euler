@@ -13,7 +13,7 @@ Solution:
 Just sum up all the primes below two million.
 
 Answer: 142913828922
-I'm the 129964th person to solve this problem.
+I'm the 129,964th person to solve this problem.
 Earned Decathlete: Solve ten consecutive problems
 
 """

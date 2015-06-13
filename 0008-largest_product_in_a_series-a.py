@@ -29,10 +29,11 @@ Find the greatest product of five consecutive digits in the 1000-digit number.
 71636269561882670428252483600823257530420752963450
 
 Solution:
-Loop through the group of 5 consecutive strings and get their products, while keeping track of the greatest product.
+Loop through the group of 5 consecutive strings and get their products, while 
+keeping track of the greatest product.
 
 Answer: 40824
-I'm the 142997th person to solve this problem.
+I'm the 142,997th person to solve this problem.
 """
 from operator import mul
 
