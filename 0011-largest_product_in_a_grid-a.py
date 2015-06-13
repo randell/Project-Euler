@@ -77,10 +77,10 @@ matrix = [[0 for x in xrange(columns_len)] for x in xrange(rows_len)]
 
 # Fill in the values
 for row_index, row_value in enumerate(rows):
-    columns = rows[row_index].split(" ")
+    row_columns = rows[row_index].split(" ")
 
-    for column_index, column_value in enumerate(columns):
-        matrix[row_index][column_index] = int(columns[column_index])
+    for column_index, column_value in enumerate(row_columns):
+        matrix[row_index][column_index] = int(row_columns[column_index])
 
 consecutive_digits = 4
 greatest_product = 1
