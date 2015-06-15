@@ -18,7 +18,7 @@ Create a factorial function. Use our digit_sum function created for Problem 16:
 Power digit sum.
 
 Answer: 648
-I'm the 91495th person to solve this problem.
+I'm the 91,495th person to solve this problem.
 
 """
 from lib.util import *

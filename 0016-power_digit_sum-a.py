@@ -13,7 +13,7 @@ Solution:
 Get the power then add the digits.
 
 Answer: 1366
-I'm the 98382nd person to solve this problem.
+I'm the 98,382nd person to solve this problem.
 
 """
 from lib.util import *

@@ -22,7 +22,7 @@ Solution:
 
 
 Answer: 21124
-I'm the 64064th person to solve this problem.
+I'm the 64,064th person to solve this problem.
 
 """
 number_word = {

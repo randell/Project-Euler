@@ -15,7 +15,7 @@ Solution:
 Add the path count of the (top and left) nodes going to the current node.
 
 Answer: 137846528820
-I'm the 77187th person to solve this problem.
+I'm the 77,187th person to solve this problem.
 
 """
 rows_len = 21

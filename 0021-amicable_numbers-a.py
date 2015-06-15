@@ -20,7 +20,7 @@ Solution:
 Prepare a function for getting the proper divisors.
 
 Answer: 31626
-I'm the 62615th person to solve this problem.
+I'm the 62,615th person to solve this problem.
 
 """
 limit = 10000

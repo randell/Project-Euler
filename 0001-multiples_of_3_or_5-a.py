@@ -14,7 +14,7 @@ Solution:
 This version is a naive implementation using a loop and modulus division.
 
 Answer: 233168.
-I'm the 311384th person to solve this problem.
+I'm the 311,384th person to solve this problem.
 """
 sum = 0
 
