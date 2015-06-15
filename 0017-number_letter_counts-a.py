@@ -19,7 +19,7 @@ letters. The use of "and" when writing out numbers is in compliance with British
 usage.
 
 Solution:
-
+Spell all numbers out from 1 to 100 and add up all the characters.
 
 Answer: 21124
 I'm the 64,064th person to solve this problem.

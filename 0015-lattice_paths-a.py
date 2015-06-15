@@ -58,6 +58,6 @@ print("")
 
 for i in range(0, rows_len):
     for j in range(0, columns_len):
-        print "%4d" % get_cell_value(i, j),
+        print "%12d" % get_cell_value(i, j),
 
     print("")
