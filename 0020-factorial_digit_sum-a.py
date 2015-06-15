@@ -14,7 +14,8 @@ and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 Find the sum of the digits in the number 100!
 
 Solution:
-Create a factorial function. Use our digit_sum function created for Problem 16: Power digit sum.
+Create a factorial function. Use our digit_sum function created for Problem 16: 
+Power digit sum.
 
 Answer: 648
 I'm the 91495th person to solve this problem.
