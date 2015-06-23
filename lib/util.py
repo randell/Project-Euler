@@ -56,7 +56,12 @@ def digit_sum(x):
 def factorial(x):
     return 1 if 1 >= x else x * factorial(x - 1)
 
+proper_divisors_dict = {}
+
 def proper_divisors(x):
+    if x in proper_divisors_dict:
+        return proper_divisors_dict[x]
+    
     pd = []
 
     if x > 0:
@@ -68,7 +73,7 @@ def proper_divisors(x):
         if i in pd:
             continue
 
-        if x % i == 0:
+        if x % i == 0 and x != i:
             divisor = x / i
 
             if i not in pd:
@@ -81,5 +86,7 @@ def proper_divisors(x):
 
         if i * i >= x:
             break
-
+        
+    proper_divisors_dict[x] = pd
+    
     return pd

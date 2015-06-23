@@ -32,3 +32,43 @@ I'm the Nth person to solve this problem.
 
 """
 from lib.util import *
+
+abundant_numbers = {}
+
+def is_abundant(x):
+    
+    if x in abundant_numbers and abundant_numbers[x]:
+        return True
+    
+    if sum(proper_divisors(x)) > x:
+        abundant_numbers[x] = True
+        
+        return abundant_numbers[x]
+    
+    abundant_numbers[x] = False
+    
+    return False
+
+def is_sum_of_two_abundant_numbers(x):
+    for i in range(1, x):
+        
+        if is_abundant(i) and is_abundant(x-i):
+#             print i, x-i, x
+            return True
+    
+    return False
+
+not_sum_of_two_abundants = 0
+abundant_limit = 28124
+lower_limit = 1
+upper_limit = abundant_limit
+
+for x in range(lower_limit, upper_limit):
+     
+    if is_sum_of_two_abundant_numbers(x):
+        continue
+    
+    not_sum_of_two_abundants += x
+          
+print abundant_numbers
+print not_sum_of_two_abundants
