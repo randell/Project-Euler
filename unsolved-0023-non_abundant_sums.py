@@ -61,7 +61,7 @@ def is_sum_of_two_abundant_numbers(x):
 not_sum_of_two_abundants = 0
 abundant_limit = 28124
 lower_limit = 1
-upper_limit = abundant_limit
+upper_limit = 100
 
 for x in range(lower_limit, upper_limit):
      
@@ -70,5 +70,4 @@ for x in range(lower_limit, upper_limit):
     
     not_sum_of_two_abundants += x
           
-print abundant_numbers
 print not_sum_of_two_abundants
