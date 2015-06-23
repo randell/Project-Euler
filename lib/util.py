@@ -55,3 +55,31 @@ def digit_sum(x):
 
 def factorial(x):
     return 1 if 1 >= x else x * factorial(x - 1)
+
+def proper_divisors(x):
+    pd = []
+
+    if x > 0:
+        pd.append(1)
+
+    i = 2
+
+    while True:
+        if i in pd:
+            continue
+
+        if x % i == 0:
+            divisor = x / i
+
+            if i not in pd:
+                pd.append(i)
+
+            if divisor not in pd:
+                pd.append(divisor)
+
+        i += 1
+
+        if i * i >= x:
+            break
+
+    return pd
