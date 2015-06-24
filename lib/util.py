@@ -64,22 +64,22 @@ def proper_divisors(x):
     
     pd = []
 
-    if x > 0:
-        pd.append(1)
+    if x <= 0:
+        return pd
 
-    i = 2
+    i = 1
 
     while True:
         if i in pd:
             continue
 
-        if x % i == 0 and x != i:
+        if x % i == 0:
             divisor = x / i
 
             if i not in pd:
                 pd.append(i)
 
-            if divisor not in pd:
+            if divisor not in pd and divisor != x:
                 pd.append(divisor)
 
         i += 1
