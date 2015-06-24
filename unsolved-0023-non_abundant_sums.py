@@ -50,7 +50,7 @@ def is_abundant(x):
     return False
 
 def is_sum_of_two_abundant_numbers(x):
-    for i in range(12, x/2+1):
+    for i in range(12, int(x/2)+1):
         if is_abundant(i) and is_abundant(x-i):
             return True
     
@@ -74,7 +74,7 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 pp.pprint(abundant_numbers)
 
-print sum_of_two_abundants
-print sum(sum_of_two_abundants)
-print not_sum_of_two_abundants
-print sum(not_sum_of_two_abundants)
+print(sum_of_two_abundants)
+print(sum(sum_of_two_abundants))
+print(not_sum_of_two_abundants)
+print(sum(not_sum_of_two_abundants))
