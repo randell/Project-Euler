@@ -84,7 +84,7 @@ def proper_divisors(x):
 
         i += 1
 
-        if i * i >= x:
+        if i * i > x:
             break
         
     proper_divisors_dict[x] = pd

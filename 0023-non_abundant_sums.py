@@ -27,8 +27,8 @@ two abundant numbers.
 Solution:
 
 
-Answer:
-I'm the Nth person to solve this problem.
+Answer: 4179871
+I'm the 60,280th person to solve this problem.
 
 """
 from lib.util import *
@@ -70,11 +70,4 @@ for x in range(lower_limit, upper_limit):
     
     not_sum_of_two_abundants.append(x)
 
-import pprint 
-pp = pprint.PrettyPrinter(indent=4)
-pp.pprint(abundant_numbers)
-
-print(sum_of_two_abundants)
-print(sum(sum_of_two_abundants))
-print(not_sum_of_two_abundants)
 print(sum(not_sum_of_two_abundants))
